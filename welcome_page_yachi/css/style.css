@@ -274,6 +274,12 @@ footer {
     min-width:375px;
   }
   /*header*/
+/*.fixed{
+position: fixed;
+width: 100%;
+margin-top:-70px;*/
+/*headerを固定したので、headerの幅の分下げた*/
+/*　ここまでは上のヘッダーのリマインダー*/
 .icon{
 margin-left:50px;
 font-size:170%; 
@@ -284,29 +290,60 @@ font-size:170%;
 }
 .header-right li:first-child{
   margin-right: 30px;
-
-
+}
 
 
 /*main ここから---------------*/
+.welcome{
+
+  /*height:100%;
+  width:100%;*/
+}
+
 .welcome .title{
-  font-size: 60px;
+  font-size:;
 } 
 main ul .guide-line{
   font-size:40px;
 
 }
 
+/*destination------------*/
+
+.img-box{
+  flex-wrap: wrap;
+}
+
+.img-box li{
+  margin-right:0;
+}
+
+.img-box li img{
+  height:200px;
+  width: 300px;
+}
+
+.imb-box li
 
 
 
 
 
+/*contact-------------------*/
 
 
+.form-group-top .form-group-center .form-group-bottom{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 
+.input-field{
+  width:260px;
+  height:40px;
+}
 
-
+  
 
 
 
