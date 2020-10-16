@@ -267,6 +267,61 @@ footer {
 }
 /*Footerここまで*/
 
+/*-------------responsive design----------*/
+/*smartphone ここからーーーー-----*/
+@media screen and (max-width: 480px){
+  body{
+    min-width:375px;
+  }
+  /*header*/
+.icon{
+margin-left:50px;
+font-size:170%; 
+}
+.header-right{
+  font-size:130%;
+  margin-right:50px;
+}
+.header-right li:first-child{
+  margin-right: 30px;
+
+
+
+
+/*main ここから---------------*/
+.welcome .title{
+  font-size: 60px;
+} 
+main ul .guide-line{
+  font-size:40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+}
+
+
+
 
 
 
