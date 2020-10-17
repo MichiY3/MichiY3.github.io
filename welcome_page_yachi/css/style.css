@@ -130,8 +130,8 @@ header {
 }
 
 .package{
-  background-color: rgba(236,227,35, .5);
-  border: 3px solid rgba(236,227,35, .3);
+  background-color: rgba(236,227,35, .6);
+  border: 3px solid rgba(236,227,35, .4);
 }
 
 .package:hover{
@@ -318,6 +318,9 @@ display:none;
   /*height:100%;
   width:100%;*/
 }
+.rgba{ 
+  background-color:rgba(255,255,255,.8)
+}
 .title{
   font-size:30px;
 } 
@@ -349,6 +352,11 @@ display:none;
   margin:13px 0;
   font-size:20px;
 }
+.package{
+  background-color: rgba(236,227,35, .7);
+  border: 3px solid rgba(236,227,35, .9);
+}
+
 
 /*destination------------*/
 .Destination .subtitle{
