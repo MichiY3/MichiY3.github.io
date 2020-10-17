@@ -269,7 +269,7 @@ footer {
 
 /*-------------responsive design----------*/
 /*smartphone ここからーーーー-----*/
-@media screen and (max-width: 430px){
+@media screen and (max-width: 480px){
   body{
     min-width:350px;
   }
@@ -286,6 +286,7 @@ margin-top:-70px;*/
 .fixed{
   display: flex;
   justify-content: space-between;
+  display:100%;
 }
 .icon{
 margin-left:30px;
@@ -310,7 +311,7 @@ display:none;
 
 /*main ここから---------------*/
 .welcome{
-
+  background-position:left;
   /*height:100%;
   width:100%;*/
 }
@@ -318,20 +319,28 @@ display:none;
   font-size:30px;
 } 
 .guideline{
-  font-size:15px;
-  align-items: 
-  margin-top:15px;
+  font-size:18px;
+  /*align-items: left;*/
+  margin-top:65px;
 }
+.guideline li{
+  display: flex;
+  flex-direction: column;
+  margin-right:0;
+}
+
 .btn-group{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top:80px;
 }
 .btn{
   height:50px;
-  width:200px;
+  width:150px;
   margin-left:0;
-  margin:10px 0;
+  margin:13px 0;
+  font-size:20px;
 }
 /*destination------------*/
 .Destination .subtitle{
