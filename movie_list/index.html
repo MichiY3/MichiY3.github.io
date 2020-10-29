@@ -4,26 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://kit.fontawesome.com/b17cc2bc60.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
+    
     <header>
         <div class="head_color">
-            <img src="srtip.webp" width="" height="50px">
+            <br>
+           <!--  <img src="srtip.webp" width="" height="50px"> -->
         </div>
 
     </header>
     <aside class="left">
-        <br>
+        <p class="strip">
+            <img src="srtip.webp" width="" height="130px" > 
+        </p>
     </aside>
     <aside class="right">
-        <br>
+        <p class="strip">
+            <img src="srtip.webp" width="" height="130px" > 
+        </p>
     </aside>
     <main>
     <div class="container">
-            <h1 class="title"><!-- <i class="fas fa-tape"></i> -->2020年中にみたい<br>  <img src="srtip.webp" width="" height="50px"><br>映画リスト<i class="fas fa-tape"></i></h1>
+            <h1 class="title"><!-- <i class="fas fa-tape"></i> -->2020年中にみたい<br>  <img src="camera_2.png" width="" height="50px" margin="40px"><br>映画リスト<!-- <i class="fas fa-tape"></i> -->
+            </h1>
                         <form>
                             <input type="text" id="input" placeholder="Add your movie list here">
                             <input type="button" id="btn" value="Add">
@@ -60,9 +68,24 @@
                 </li>
                       
             </ul>
+        <div><h2>見終わった！</h2>
+            <ul class="done-list">
+                <!-- ここに要素が追加されていく -->
+                <li class="list">英単語10個勉強する
+                    <div class="star"><!-- Done -->★★★★★</div>
+                </li>
+                <li class="list">マラソン5キロ
+                    <div class="star">★★★☆☆</div>
+                </li>
+                <li class="list">英単語10個勉強する
+                    <div class="star">★★★★☆</div>
+                </li>
+            </ul>
+        </div>
     </div>
     <script src="./assets/js/main.js"></script>
     </main>
+  
 </body>
 </html>
 

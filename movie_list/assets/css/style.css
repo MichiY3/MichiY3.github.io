@@ -4,6 +4,9 @@
 	color: /*#232b2b*/ /*#e6bfb2*/ /*#e17b34*/ #622d18;
 	font-family:palatino, YuKyokasho Yoko;
 }
+/*.wrap {
+	width:100%;
+}*/
 ul {
 	list-style: none;
 }
@@ -17,32 +20,36 @@ body {
 .head_color{
 	width:100%;
 	height:60px;
-	color:#eae8e1;
+	background-color:#eae8e1;
 	display: flex;
+
 	
-	
+
 }
 
-.container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 40px;
-	width: 50%;
+.strip{
+   transform: rotate( 90deg );
+   display:repeat;
+   margin:0;
 }
-
 aside{
-	height :200%;
-	background-color:#008db7;
+	height:200%;
+	background-color:/*#008db7 */#c49a6a;
+	position:relative;/
+	width: 15%;
 	
 }
 
 aside .left{
 	float:left;
-	position:relative;
-	width: 30%;
 	
 }
+
+aside .right{
+	float:right;
+	
+}
+
 main{
 	float:left;
 	display: flex;
@@ -50,15 +57,15 @@ main{
 	position: relative;
 	background-color: /*#fce4d6*/#e8d3ca;
 	height: 200%;
-	width:40%;
+	width:70%;
 }
-aside .right{
-	float:right;
-	position:relative;
-	width: 30%;
-	
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40px;
+	width: 70%;
 }
-
 
 h1 {
 	text-align: center;
@@ -68,6 +75,9 @@ h1 .title{
 	font-family:cursive;
 	font-size: 90px;
 	/*color: #98605e;*/
+}
+h2{
+	margin-top:100px;
 }
 
 form {
@@ -85,7 +95,7 @@ input[type="text"] {
 #btn {
 	width: 25%;
 	padding: 5px;
-	background-color: #093d86;
+	background-color: #093d86 /*#043c78*/;
 	color: white;
 	border: none;
 	border-radius: 0 3px 3px 0;
@@ -96,6 +106,12 @@ input[type="text"] {
 	width: 100%;
 	border-radius: 3px;
 }
+.done-list {
+	width: 100%;
+	border-radius: 3px;
+}
+
+
 /* 追加されるリストアイテムのCSS */
 li {
 	height: 35px;
