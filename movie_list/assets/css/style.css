@@ -1,7 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
-	color: /*#232b2b*/ /*#e6bfb2*/ #e17b34;
+	color: /*#232b2b*/ /*#e6bfb2*/ /*#e17b34*/ #622d18;
+	font-family:palatino, YuKyokasho Yoko;
 }
 ul {
 	list-style: none;
@@ -12,23 +13,63 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
+.head_color{
+	width:100%;
+	height:60px;
+	color:#eae8e1;
+	display: flex;
+	
+	
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-top: 40px;
-	width: 40%;
+	width: 50%;
 }
+
+aside{
+	height :200%;
+	background-color:#008db7;
+	
+}
+
+aside .left{
+	float:left;
+	position:relative;
+	width: 30%;
+	
+}
+main{
+	float:left;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	background-color: /*#fce4d6*/#e8d3ca;
+	height: 200%;
+	width:40%;
+}
+aside .right{
+	float:right;
+	position:relative;
+	width: 30%;
+	
+}
+
+
 h1 {
 	text-align: center;
 }
 	
-h1 .movie_list{
-	margin-top: 150px;
+h1 .title{
 	font-family:cursive;
-	font-size: 50px;
-	color: #98605e;
+	font-size: 90px;
+	/*color: #98605e;*/
 }
+
 form {
 	width: 100%;
 	height: 36px;
@@ -38,7 +79,7 @@ form {
 input[type="text"] {
 	width: 75%;
 	padding: 3px 7px;
-	border: 1px solid #232b2b;
+	border: 1px solid /*#232b2b*/ #d4d9df;;
 	border-radius: 3px 0 0 3px;
 }
 #btn {
@@ -57,10 +98,10 @@ input[type="text"] {
 }
 /* 追加されるリストアイテムのCSS */
 li {
-	height: 30px;
-	border: 1px solid rgba(187, 187, 187,.3);
+	height: 35px;
+	border: 1px solid rgba(187, 187, 187,.0);
 	border-bottom: none;
-	padding: 3px 11px;
+	padding: 5px 11px;
 	display: flex;
 	align-items: center;
 	/* ボタンが追加された時、タスクの内容とボタンを左右に配置 */
@@ -68,11 +109,16 @@ li {
 }
 /* 最後のli要素のみ、border-bottomがある */
 li:last-child {
-	border-bottom: 1px solid rgba(187, 187, 187 ,.3);
+	border-bottom: 1px solid rgba(187, 187, 187 ,.0);
 }
 /* 追加されるリストアイテムのDeleteボタン */
 .delete {
 	font-size: 12px;
 	color: rgb(202, 20, 20);
+	cursor: pointer;
+}
+.star{
+	font-size:20px;
+	color:/*#fff352*/#5f6527;
 	cursor: pointer;
 }
