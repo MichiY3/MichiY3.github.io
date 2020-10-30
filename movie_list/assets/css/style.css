@@ -2,11 +2,16 @@
 	margin: 0;
 	padding: 0;
 	color: /*#232b2b*/ /*#e6bfb2*/ /*#e17b34*/ #622d18;
-	font-family:palatino, YuKyokasho Yoko;
+	font-family:Tahoma,YuKyokasho Yoko;
 }
 /*.wrap {
 	width:100%;
 }*/
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+}
 ul {
 	list-style: none;
 }
@@ -36,7 +41,7 @@ aside{
 	height:200%;
 	background-color:/*#008db7 */#c49a6a;
 	position:relative;/
-	width: 15%;
+	width: 25vw;
 	
 }
 
@@ -47,6 +52,7 @@ aside .left{
 
 aside .right{
 	float:right;
+	background-color:#008db7 ;
 	
 }
 
@@ -54,30 +60,27 @@ main{
 	float:left;
 	display: flex;
 	justify-content: center;
-	position: relative;
+/*	position: relative;*/
 	background-color: /*#fce4d6*/#e8d3ca;
 	height: 200%;
-	width:70%;
+	width:50%;
 }
 .container{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-top: 40px;
-	width: 70%;
+	width: 80%;
 }
 
 h1 {
 	text-align: center;
 }
 	
-h1 .title{
+.title{
 	font-family:cursive;
-	font-size: 90px;
+	font-size: 30px;
 	/*color: #98605e;*/
-}
-h2{
-	margin-top:100px;
 }
 
 form {
