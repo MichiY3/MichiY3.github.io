@@ -46,14 +46,19 @@ aside {
 	margin:0;
 	padding:0;
 	float:left;
-	width:13%;
+	width:12%;
 	/*display: flex;
   justify-content: flex-end;
 
 */
 }
-
-
+.add{
+	background-color:#c49a6a;
+	margin:0;
+	padding:0;
+	float:left;
+	width:1%;
+}
 /*.beige-left .strip{
 	float:right;
 
@@ -64,23 +69,24 @@ aside {
 	margin:0;
 	padding:0;
 	float:left;
-	width:13%;
+	width:12%;
 }
 
 
 .strip{
 	/*width:10%;*/
-	height:10%;
-	width:auto;
-	background-size: cover;
-	background-image:url("../../srtip.webp");
+	height:100%;
+	width:100%;
+	background-size: contain;
+	background-image:url("../../filmstrip_3.png");
+/*	background-image:url("../../srtip.webp");*/
 	/*background-size: 500%;
 	height:50%;
 	width:50%;*/
-	background-repeat: repeat-y;
-   transform: rotate( 90deg );
+	/*background-repeat: repeat-y;*/
+ 	/*transform: rotate( 90deg );*/
    padding-left:0px;
-   opacity: .7;
+   opacity: .5;
    /*background-color: #c49a6a;*/
    margin:0;
 }

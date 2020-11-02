@@ -18,7 +18,7 @@ addBtn.addEventListener('click',function(){
 	let titleInput = document.querySelector('#input');
 	if(titleInput.value != ''){
 		add_li_tag(titleInput.value);
-		data.push(movie_title.value);
+		data.push(titleInput.value);
 
 localStorage.setItem('MovieList',JSON.stringify(data));
 
@@ -30,16 +30,15 @@ taskInput.value='';
 
 function add_li_tag(movie_title){
 
-let movie_list=document.querySelector('movie-list');
+let movie_list=document.querySelector('.movie-list');
 let add_li= document.createElement('li');
 add_li.textContent = movie_title;
 // console.log(add_li);
 add_li.classList.add('list');
 
 let FA_trash = document.createElement('i');
-	FA_trash.textContent = 'fas fa-trash-alt';
 FA_trash.classList.add('fas')
-FA_trash.classList.add(fa-trash-alt);
+FA_trash.classList.add('fa-trash-alt');
 
 FA_trash.addEventListener('click',function(){
 		let ForSure = confirm('本当に見たくない？');
@@ -53,7 +52,7 @@ FA_trash.addEventListener('click',function(){
 	});
 
 
-add.li.appendChild(FA_trash);
+add_li.appendChild(FA_trash);
 
 movie_list.appendChild(add_li);
 
