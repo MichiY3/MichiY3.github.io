@@ -37,11 +37,11 @@ add_li.textContent = movie_title;
 add_li.classList.add('list');
 
 let FA_trash = document.createElement('i');
-FA_trash.classList.add('fas')
+FA_trash.classList.add('fas');
 FA_trash.classList.add('fa-trash-alt');
 
 FA_trash.addEventListener('click',function(){
-		let ForSure = confirm('本当に見たくない？');
+		let ForSure = confirm('本当に見なくていいの？');
 		if(ForSure == true){
 			let FA_trash = this.parentElement.textContent;
 			FA_trash = FA_trash.replace('fas fa-trash-alt','');
