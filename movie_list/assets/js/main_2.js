@@ -36,9 +36,15 @@ add_li.textContent = movie_title;
 // console.log(add_li);
 add_li.classList.add('list');
 
+
+let rate_star= document.createElement('p');
+rate_star.textContent = '☆☆☆☆☆ ';
+rate_star.classList.add('star');
+
 let FA_trash = document.createElement('i');
 FA_trash.classList.add('fas');
 FA_trash.classList.add('fa-trash-alt');
+
 
 FA_trash.addEventListener('click',function(){
 		let ForSure = confirm('本当に見なくていいの？');
@@ -49,9 +55,13 @@ FA_trash.addEventListener('click',function(){
 			this.parentElement.remove();
 	localStorage.setItem('MovieList',JSON.stringify(data));
 		}
+
+
+
 	});
 
 
+add_li.appendChild(rate_star);
 add_li.appendChild(FA_trash);
 
 movie_list.appendChild(add_li);

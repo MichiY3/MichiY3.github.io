@@ -190,11 +190,13 @@ li:last-child {
 	font-size:20px;
 	color:/*#fff352*/#5f6527;
 	cursor: pointer;
+	text-align:right;
 }
 
 .fa-trash-alt{
 	color:/*#fff352*/#5f6527;
 	font-size:20px;
+
 }
 
 
@@ -276,12 +278,18 @@ li:last-child {
 	}
 	.star{
 		font-size:25px;
+
 	}
 	li{
 		display:flex;
 		flex-direction: column;
 		margin-bottom:25px;
 	}
+
+	.fa-trash-alt{
+		margin-top:12px;
+	
+}
 }
 
 
