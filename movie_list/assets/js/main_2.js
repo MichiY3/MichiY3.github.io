@@ -36,6 +36,8 @@ add_li.textContent = movie_title;
 // console.log(add_li);
 add_li.classList.add('list');
 
+let div_button = document.createElement('div');
+ div_button.classList.add('rate_del');
 
 let rate_star= document.createElement('p');
 rate_star.textContent = '☆☆☆☆☆ ';

@@ -176,6 +176,10 @@ li {
 	/* ボタンが追加された時、タスクの内容とボタンを左右に配置 */
 	justify-content: space-between;
 }
+.rate_del{
+	justify-content: right;
+
+}
 /* 最後のli要素のみ、border-bottomがある */
 li:last-child {
 	border-bottom: 1px solid rgba(187, 187, 187 ,.0);
@@ -196,6 +200,7 @@ li:last-child {
 .fa-trash-alt{
 	color:/*#fff352*/#5f6527;
 	font-size:20px;
+	text-align:right;
 
 }
 
