@@ -12,7 +12,7 @@ $('#hamburger_btn').on('click',function(){
     toggleDrower(isActive);
     
 
-});
+})
 });
 
 
@@ -22,7 +22,7 @@ function toggleDrower(isActive) {
       $('#drower-bg').fadeIn(600);
     } else {
       // onを外した時、メニューを非表示
-      $('#drower-bg').fadeOut(600);
+      $('#drower-bg').fadeOut(1000);
     }
   }
 
