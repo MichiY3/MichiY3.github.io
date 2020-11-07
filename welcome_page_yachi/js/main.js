@@ -22,9 +22,31 @@ function toggleDrower(isActive) {
       $('#drower-bg').fadeIn(600);
     } else {
       // onを外した時、メニューを非表示
-      $('#drower-bg').fadeOut(1000);
+      $('#drower-bg').fadeOut(600);
     }
-  }
+  };
 
+
+  // モーダル
+
+  $(function(){
+
+  $('.img-box img/tajimahal.jpg').on('click',function(){
+  	$('.modal-bg').fadeIn('slow');
+  	$('#moda-text').fadeIn('slow');
+  })
+
+
+$('.modal-close').on('click',function(){
+	$('#drower-bg').fadeOut('slow'); 
+								// 遅めのアニメーション
+	$('.modal-bg').fadeOut('slow');
+
+
+  });
+
+
+
+});
 
    

@@ -292,6 +292,44 @@ header {
   margin-top: 20px;
 }
 
+
+
+/* モーダル */
+.modal-close {
+  text-align:right;
+  padding: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+ .modal-wrapper {
+     min-height: 400px;
+ }
+
+#moda-text {
+    display: none;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 300px;
+    margin-left: -250px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.modal-bg {
+    display:none;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,.7);
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+
 /* contact */
 .contact {
   text-align: center;
