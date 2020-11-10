@@ -13,7 +13,7 @@ $('#hamburger_btn').on('click',function(){
     
 
 })
-});
+})
 
 
 function toggleDrower(isActive) {
@@ -31,7 +31,7 @@ function toggleDrower(isActive) {
 
   $(function(){
 
-  $('.img-box img/tajimahal.jpg').on('click',function(){
+  $('#asia').on('click',function(){
   	$('.modal-bg').fadeIn('slow');
   	$('#moda-text').fadeIn('slow');
   })
@@ -48,5 +48,12 @@ $('.modal-close').on('click',function(){
 
 
 });
+
+
+
+
+
+
+
 
    
